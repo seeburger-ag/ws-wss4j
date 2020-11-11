@@ -360,7 +360,7 @@ public final class SAMLUtil {
         X509Certificate[] certs = null;
         KeyInfoFactory keyInfoFactory = null;
         try {
-            keyInfoFactory = KeyInfoFactory.getInstance("DOM", "ApacheXMLDSig");
+            keyInfoFactory = KeyInfoFactory.getInstance("DOM", "ApacheXMLDSig-1.5");
         } catch (NoSuchProviderException ex) {
             keyInfoFactory = KeyInfoFactory.getInstance("DOM");
         }
