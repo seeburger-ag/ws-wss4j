@@ -22,7 +22,7 @@
     <artifactId>wss4j</artifactId>
     <packaging>bundle</packaging>
     <name>Apache WSS4J</name>
-    <version>1.6.20-SNAPSHOT</version>
+    <version>1.6.19.SEE1</version>
     <description>
         The Apache WSS4J project provides a Java implementation of the primary security standards
         for Web Services, namely the OASIS Web Services Security (WS-Security) specifications
@@ -69,7 +69,7 @@
         <connection>scm:git:git@github.com:seeburger-ag/ws-wss4j.git</connection>
         <developerConnection>scm:git:git@github.com:seeburger-ag/ws-wss4j.git</developerConnection>
         <url>scm:git:git@github.com:seeburger-ag/ws-wss4j.git</url>
-      <tag>HEAD</tag>
+      <tag>wss4j-1.6.19.SEE1</tag>
   </scm>
     <organization>
         <name>The Apache Software Foundation</name>
